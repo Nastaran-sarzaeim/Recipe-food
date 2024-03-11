@@ -1,11 +1,12 @@
 import React from "react";
+import styles from "./header.module.css";
 
 function Header() {
   return (
     <>
-      <h1>
-        Searching <span>Resipes</span> Food 🍔
-      </h1>
+      <div className={styles.header}>
+        Searching <span className={styles.recipes}>Resipes</span> Food 🍔
+      </div>
     </>
   );
 }
