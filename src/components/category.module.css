@@ -1,0 +1,14 @@
+.details {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .detail {
+    background-color: #fff;
+    margin: 0 14px;
+    border-radius: 70px;
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+  }

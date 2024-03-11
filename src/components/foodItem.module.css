@@ -1,0 +1,33 @@
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+.imgFood {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.titleFood {
+  text-align: center;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.btnShowRecipe {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 187, 0, 0.8);
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btnShowRecipe:hover,
+.btnShowRecipe:active {
+  cursor: pointer;
+  background-color: #fcba03;
+}

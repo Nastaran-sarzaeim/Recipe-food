@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerSearch {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+}
+.inputSearch {
+  outline: none;
+  border: none;
+  padding: 14px 20px;
+  background-color: transparent;
+}
+.iconSearch {
+  padding-right: 15px;
+  color: #808080;
+}
+.inputSearch::placeholder {
+  color: #808080;
+}
