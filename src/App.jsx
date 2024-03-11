@@ -1,13 +1,17 @@
-import { useState } from 'react'
+import { useState } from "react";
+import Search from "./components/Search";
+import FoodList from "./components/FoodList";
+import Header from "./components/Header";
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [foodData, setFoodData] = useState([]);
   return (
-<>
-<div>hi</div>
-</>
-  )
+    <>
+      <Header />
+      <Search foodData={foodData} setFoodData={setFoodData} />
+      <FoodList foodData={foodData} />
+    </>
+  );
 }
 
-export default App
+export default App;
