@@ -1,0 +1,119 @@
+.containerInformation {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: transparent;
+  position: relative;
+  width: 700px;
+  /* height: 100vh; */
+}
+.container {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 25px;
+  margin-top: -50px;
+}
+.img {
+  border-radius: 25px;
+  max-width: 100%;
+}
+.title {
+  margin: 15px;
+  font-weight: bold;
+  color: #393e46;
+}
+.details {
+  display: flex;
+  justify-content: center;
+}
+.detail {
+  background-color: rgba(181, 71, 77 , 0.6);
+  margin: 0 14px;
+  border-radius: 70px;
+  height: 80px;
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+}
+.iconDetails {
+  background-color: #fff;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+.icon {
+  margin-top: 10px;
+}
+.textDetails {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.containerBtnChange {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btnChange {
+  border: 2px solid #fff;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btnChange:hover,
+.btnChange:active {
+  border-bottom: 2px solid #b5474d;
+  cursor: pointer;
+}
+.active{
+  border-bottom: 2px solid #b5474d;
+}
+.ingredients,
+.instructions {
+  margin: 0 15px;
+}
+.instruction {
+  margin: 20px;
+  color: #464646;
+  list-style-type: decimal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  
+}
+.instruction::marker {
+  color: #fcba03;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1100px ) {
+  .containerInformation {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .containerInformation {
+    width: 400px;
+  }
+  .container{
+    top: 150px;
+  }
+  .detail{
+    margin: 0 8px;
+  }
+}
+@media only screen and (max-width: 750px ) {
+  .containerInformation {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 500px ) {
+  .containerInformation {
+    width: 300px;
+  }
+}
