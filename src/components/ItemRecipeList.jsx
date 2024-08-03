@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./itemRecipeList.module.css";
+import styles from "./itemrecipelist.module.css";
 
 function ItemRecipeList({ food, isLoading }) {
   return (
