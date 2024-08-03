@@ -10,7 +10,7 @@ function Category({ setQuery }) {
           return (
             <div className={styles.detail}>
               <button className={styles.btnCategory} onClick={() => setQuery(food)}>
-                <img src={`../../public/${food}.jpg`} className={styles.img} title={food}/>
+                <img src={`../../public/image/${food}.jpg`} className={styles.img} title={food}/>
               </button>
             </div>
           );
