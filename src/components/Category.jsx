@@ -22,7 +22,7 @@ function Category({ setQuery }) {
         {foodArray.map((food) => {
           return (
             <div className={styles.detail}>
-              <button className={styles.btnCategory} onClick={() => setQuery(food)}>
+              <button className={styles.btnCategory} onClick={() => setQuery(food.name)}>
                 <img src={food.img} className={styles.img} title={food.name} />
               </button>
             </div>
